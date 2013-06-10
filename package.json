@@ -1,0 +1,17 @@
+{
+  "name": "jokester-blog",
+  "description": "A personal implementation to enter in the blogosphere",
+  "author": "Clément Désiles",
+  "version": "0.1.0",
+  "main": "./lib/server.js",
+  "bin": "./bin/jokeser-blog",
+  "preferGlobal": true,
+  "repository": "git://github.com/jokesterfr/blog.git",
+  "homepage": "https://github.com/jokesterfr/blog",
+  "keywords": ["blog", "jokester", "markdown","personal hosting"],
+  "tags": ["blog", "jokester", "markdown","personal hosting"],
+  "devDependencies": {
+    "marked": "*"
+  },
+  "scripts": { "test": "node test", "bench": "node test --bench" }
+}
